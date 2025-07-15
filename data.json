@@ -1,0 +1,238 @@
+{
+  "personal": {
+    "name": "Subham Dey",
+    "title": "Next.js Developer",
+    "description": "Mechanical Engineering student at IIT (ISM) Dhanbad with a passion for building modern web applications. Transforming ideas into digital reality.",
+    "roles": ["Next.js Developer","Competitive Programmer", "Full Stack Developer","Freelance",  "Tech Enthusiast"],
+    "education": {
+      "institution": "Indian Institute of Technology (ISM), Dhanbad",
+      "degree": "Bachelor of Technology in Mechanical Engineering",
+      "graduation": "Expected May 2026"
+    },
+    "stats": [
+      { "number": "750+", "label": "Problems Solved", "color": "from-blue-400 to-cyan-400" },
+      { "number": "1748", "label": "Leetcode Rating", "color": "from-green-400 to-emerald-400" },
+      { "number": "2+", "label": "Years Coding", "color": "from-purple-400 to-pink-400" },
+      { "number": "20+", "label": "Projects Built", "color": "from-orange-400 to-red-400" }
+    ],
+    "quickFacts": [
+      "Inter-IIT Football Team Member",
+      "Chess Rating: 1729",
+      "Top 5 in HackFusion'24",
+      "SAIRC Coordinator"
+    ]
+  },
+  "social": {
+    "github": "https://github.com/Subham170",
+    "linkedin": "https://www.linkedin.com/in/subham-dey-269096253/",
+    "email": "deysubham3312@gmail.com"
+  },
+  "contact": {
+    "email": "deysubham3312@gmail.com",
+    "location": "Dhanbad, Jharkhand, India",
+    "studentId": "22JE0983"
+  },
+  "skills": {
+    "categories": [
+      {
+        "title": "Languages",
+        "icon": "Code",
+        "skills": ["C", "C++", "Python", "JavaScript", "TypeScript", "SQL"]
+      },
+      {
+        "title": "Libraries & Frameworks",
+        "icon": "Code",
+        "skills": [
+          "Next.js",
+          "React.js",
+          "TailwindCSS",
+          "Material-UI (MUI)",
+          "Shadcn/ui",
+          "Node.js",
+          "Express.js",
+          "REST APIs",
+          "Sockets",
+          "Framer Motion",
+          "Numpy",
+          "Pandas",
+          "Matplotlib"
+        ]
+      },
+      {
+        "title": "Databases & Cloud",
+        "icon": "Database",
+        "skills": ["PostgreSQL", "MongoDB", "Cloudinary"]
+      },
+      {
+        "title": "Developer Tools",
+        "icon": "Wrench",
+        "skills": ["Docker", "Postman", "VS Code", "CursorAI", "Git/GitHub", "Anaconda"]
+      }
+    ],
+    "fundamentals": ["DSA", "OOPs", "DBMS", "System Design"]
+  },
+  "experience": [
+    {
+      "company": "BuilderMitr",
+      "role": "Next.js Developer Intern",
+      "duration": "June 2025 – Ongoing",
+      "type": "Remote",
+      "achievements": [
+        "Built and integrated 5+ dynamic tables with sorting, filtering, and pagination using Next.js, TypeScript, and API endpoints—enhancing data accessibility for 1500+ active users.",
+        "Implemented Excel bulk upload with live table previews; optimized server performance by 40% using debouncing and delayed execution on high-frequency functions.",
+        "Enhanced UI with Tailwind CSS, shadcn/ui, and Framer Motion for smooth transitions—boosting user engagement and daily activity by 25%."
+      ],
+      "technologies": ["Next.js", "TypeScript", "Tailwind CSS", "shadcn/ui", "Framer Motion"],
+      "gradient": "from-blue-500 to-cyan-500"
+    },
+    {
+      "company": "Rachayitha",
+      "role": "Next.js Developer",
+      "duration": "July 2024 – October 2024",
+      "type": "Remote/Freelance",
+      "description": "India's Own Online Reading Platform",
+      "achievements": [
+        "Enabled multilingual support using 'next-i18next', improving accessibility for 3,000+ users and boosting retention by 20%.",
+        "Built a responsive leaderboard from scratch using Next.js, MUI, Tailwind CSS, and TanStack Query; integrated RESTful APIs and reduced load time by 30%.",
+        "Implemented debounced API calls and reusable components using JavaScript, improving responsiveness and cutting frontend development time by 40%."
+      ],
+      "technologies": ["Next.js", "MUI", "Tailwind CSS", "TanStack Query", "next-i18next"],
+      "gradient": "from-purple-500 to-pink-500"
+    }
+  ],
+  "projects": [
+    {
+      "title": "IntelliDoc: Your Health Buddy",
+      "description": "A comprehensive health information web app with AI-powered diagnostics and personalized health insights.",
+      "longDescription": "Revolutionary healthcare platform combining machine learning with intuitive user experience to provide personalized health guidance and diagnostic support.",
+      "achievements": [
+        { "icon": "Users", "text": "25% increase in user satisfaction and retention", "color": "text-green-400" },
+        { "icon": "Zap", "text": "90%+ accuracy in medical chatbot responses", "color": "text-blue-400" },
+        { "icon": "TrendingUp", "text": "25% boost in proactive health management", "color": "text-purple-400" }
+      ],
+      "technologies": ["React.js", "TailwindCSS", "Node.js", "MongoDB", "Multer", "NodeMailer", "JWT", "ML Algorithms"],
+      "github": "https://github.com/Subham170/IntelliDoc",
+      "gradient": "from-green-400 to-blue-500",
+      "bgGradient": "from-green-500/10 to-blue-500/10",
+      "emoji": "🏥"
+    },
+    {
+      "title": "Anonimo: Anonymous Messaging Platform",
+      "description": "A secure anonymous messaging application where users can post messages without revealing their identity.",
+      "longDescription": "Privacy-focused messaging platform built with Next.js and Tailwind CSS, allowing users to share thoughts and messages anonymously while maintaining a clean, modern interface.",
+      "achievements": [
+        { "icon": "MessageCircle", "text": "Secure anonymous messaging system", "color": "text-purple-400" },
+        { "icon": "Zap", "text": "Fast and responsive user interface", "color": "text-blue-400" },
+        { "icon": "Users", "text": "Privacy-first design approach", "color": "text-green-400" }
+      ],
+      "technologies": ["Next.js", "Tailwind CSS", "React", "TypeScript", "Vercel"],
+      "github": "https://github.com/Subham170/Anonimo",
+      "gradient": "from-purple-400 to-pink-500",
+      "bgGradient": "from-purple-500/10 to-pink-500/10",
+      "emoji": "🤐"
+    },
+    {
+      "title": "ShopEasy: E-commerce Platform",
+      "description": "A complete e-commerce solution with both frontend and backend, featuring product management and user authentication.",
+      "longDescription": "Comprehensive e-commerce web application built with React frontend and Node.js backend, offering complete shopping experience with product catalog, user management, and secure transactions.",
+      "achievements": [
+        { "icon": "ShoppingCart", "text": "Complete e-commerce functionality", "color": "text-orange-400" },
+        { "icon": "Users", "text": "User authentication and management", "color": "text-blue-400" },
+        { "icon": "Zap", "text": "Responsive design and smooth UX", "color": "text-green-400" }
+      ],
+      "technologies": ["React", "Node.js", "Express.js", "MongoDB", "JWT", "REST API", "CSS3", "HTML5"],
+      "github": "https://github.com/Subham170/ShopEasy",
+      "gradient": "from-orange-400 to-red-500",
+      "bgGradient": "from-orange-500/10 to-red-500/10",
+      "emoji": "🛒"
+    }
+  ],
+  "achievementsData": {
+    "programmingStats": [
+      { "platform": "CodeChef", "rating": "1702", "badge": "3 Star", "color": "from-orange-400 to-red-500" },
+      { "platform": "LeetCode", "rating": "1748",  "color": "from-yellow-400 to-orange-500" },
+      { "platform": "Codeforces", "rating": "1436", "badge": "Specialist", "color": "from-green-400 to-blue-500" }
+    ],
+    "achievements": [
+  {
+    "icon": "Trophy",
+    "title": "HackFusion'24",
+    "description": "Secured a spot among the national top 5 teams in a 36-hour product-building hackathon, competing against 100+ teams across India.",
+    "organization": "NIT Jamshedpur",
+    "color": "from-yellow-400 to-orange-500"
+  },
+  {
+    "icon": "Trophy",
+    "title": "HackFest'24",
+    "description": "Achieved 7th rank in a premier national hackathon, building an innovative tech solution among 200+ competing teams.",
+    "organization": "IIT (ISM) Dhanbad",
+    "color": "from-purple-400 to-pink-500"
+  },
+  {
+    "icon": "Users",
+    "title": "SAIRC Coordinator",
+    "description": "Spearheaded a 20+ member team, managing key alumni and international relations initiatives for the institute.",
+    "organization": "IIT (ISM) Dhanbad",
+    "color": "from-blue-400 to-cyan-500"
+  },
+  {
+    "icon": "Star",
+    "title": "Internship Representative",
+    "description": "Represented the student body, facilitating company relations, enhancing internship opportunities, and driving student engagement.",
+    "organization": "IIT (ISM) Dhanbad",
+    "color": "from-green-400 to-emerald-500"
+  }
+]
+
+  },
+  "sections": {
+    "hero": {
+      "greeting": "Hello, I'm",
+      "ctaButtons": [
+        { "text": "Let's Connect", "href": "#contact", "icon": "Mail", "variant": "primary" },
+        { "text": "View Work", "href": "#projects", "icon": "ExternalLink", "variant": "outline" }
+      ]
+    },
+    "about": {
+      "title": "About Me",
+      "sections": [
+        {
+          "title": "Education",
+          "icon": "GraduationCap",
+          "color": "from-blue-500/20 to-purple-500/20",
+          "iconColor": "text-blue-400"
+        },
+        {
+          "title": "Passion",
+          "icon": "Code",
+          "color": "from-green-500/20 to-blue-500/20",
+          "iconColor": "text-green-400",
+          "description": "I'm passionate about creating digital experiences that matter. My journey combines the analytical thinking from mechanical engineering with the creativity of modern web development."
+        },
+        {
+          "title": "Focus",
+          "icon": "Zap",
+          "color": "from-purple-500/20 to-pink-500/20",
+          "iconColor": "text-purple-400",
+          "description": "Currently focused on full-stack development with Next.js, building scalable applications that solve real-world problems. I love turning complex challenges into elegant solutions."
+        }
+      ]
+    },
+    "skills": {
+      "title": "Technical Skills"
+    },
+    "experience": {
+      "title": "Experience",
+      "subtitle": "Building the future, one project at a time"
+    },
+    "projects": {
+      "title": "Featured Projects",
+      "subtitle": "Turning ideas into digital reality"
+    },
+    "contact": {
+      "title": "Let's Connect",
+      "subtitle": "Ready to build something amazing together?",
+      "description": "I'm always excited to discuss new opportunities, collaborate on interesting projects, or just chat about technology and innovation. Let's create something extraordinary together!"
+    }
+  }
+} 
