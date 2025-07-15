@@ -35,7 +35,7 @@ export function Hero() {
     return () => clearTimeout(timer)
   }, [text, isDeleting, loopNum, typingSpeed, roles])
 
-  const handleSmoothScroll = (e: React.MouseEvent<HTMLAnchorElement>, targetId: string) => {
+  const handleSmoothScroll = (e: React.MouseEvent<HTMLAnchorElement | HTMLButtonElement>, targetId: string) => {
     e.preventDefault()
     const targetElement = document.getElementById(targetId)
     if (targetElement) {
@@ -127,7 +127,12 @@ export function Hero() {
 
           {/* Scroll indicator */}
           <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 opacity-0 animate-[fadeInUp_1s_ease-out_1.4s_forwards]">
-            <ChevronDown className="h-8 w-8 text-blue-400 animate-bounce" />
+            <button
+              onClick={(e) => handleSmoothScroll(e, 'about')}
+              className="group cursor-pointer hover:scale-110 transition-all duration-300 animate-[bounce_3s_ease-in-out_infinite]"
+            >
+              <ChevronDown className="h-8 w-8 text-blue-400 group-hover:text-blue-300 transition-colors duration-300" />
+            </button>
           </div>
         </div>
       </div>

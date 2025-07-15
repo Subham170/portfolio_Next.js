@@ -29,7 +29,10 @@ export function Navigation() {
     e.preventDefault()
     const el = document.getElementById(id)
     if (el) {
-      el.scrollIntoView({ behavior: "smooth" })
+      el.scrollIntoView({ 
+        behavior: "smooth",
+        block: "start"
+      })
     }
     setIsOpen(false)
   }
