@@ -16,10 +16,22 @@
       { "number": "20+", "label": "Projects Built", "color": "from-orange-400 to-red-400" }
     ],
     "quickFacts": [
-      "Inter-IIT Football Team Member",
-      "Chess Rating: 1729",
-      "Top 5 in HackFusion'24",
-      "SAIRC Coordinator"
+      {
+        "title": "Full-Stack Web Developer & Tech Enthusiast",
+        "description": "Building scalable web applications with modern frontend and backend technologies."
+      },
+      {
+        "title": "Competitive Programmer & Problem Solver",
+        "description": "750+ problems solved; strong foundation in DSA, OOPs, and system design."
+      },
+      {
+        "title": "Hackathon Innovator & Team Collaborator",
+        "description": "Proven performer in national hackathons, thriving in fast-paced, team-driven environments."
+      },
+      {
+        "title": "Student Leader with a Growth Mindset",
+        "description": "Active in leadership roles and sports, balancing academics, coding, and teamwork."
+      }
     ]
   },
   "social": {
@@ -215,6 +227,13 @@
           "color": "from-purple-500/20 to-pink-500/20",
           "iconColor": "text-purple-400",
           "description": "Currently focused on full-stack development with Next.js, building scalable applications that solve real-world problems. I love turning complex challenges into elegant solutions."
+        },
+        {
+          "title": "Vision",
+          "icon": "Rocket",
+          "color": "from-pink-500/20 to-purple-500/20",
+          "iconColor": "text-pink-400",
+          "description": "To innovate scalable web solutions that positively impact millions, while continuously evolving as a developer, problem solver, and future tech leader."
         }
       ]
     },

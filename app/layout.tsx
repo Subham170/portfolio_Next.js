@@ -22,6 +22,21 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              if ('serviceWorker' in navigator) {
+                navigator.serviceWorker.getRegistrations().then(function(registrations) {
+                  for(let registration of registrations) {
+                    registration.unregister();
+                  }
+                });
+              }
+            `,
+          }}
+        />
+      </head>
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
           <Navigation />
