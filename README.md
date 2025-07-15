@@ -2,7 +2,6 @@
 
 A modern, responsive portfolio website built with Next.js, TypeScript, and Tailwind CSS. Features smooth animations, dark theme, and a professional design showcasing my skills, projects, and experience.
 
-![Portfolio Preview](https://i.imgur.com/your-image-url.png)
 
 ## ✨ Features
 
